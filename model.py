@@ -4,11 +4,12 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import pickle
 
-dataset = pd.read_csv('hiring.csv')
+dataset = pd.read_csv("hiring.csv",sep=";")
 
 dataset['experience'].fillna(0, inplace=True)
 
 dataset['test_score'].fillna(dataset['test_score'].mean(), inplace=True)
+
 
 X = dataset.iloc[:, :3]
 
@@ -31,9 +32,13 @@ regressor = LinearRegression()
 #Fitting model with trainig data
 regressor.fit(X, y)
 
+X
+
 # Saving model to disk
 pickle.dump(regressor, open('model.pkl','wb'))
 
 # Loading model to compare the results
 model = pickle.load(open('model.pkl','rb'))
-print(model.predict([[2, 9, 6]]))
+
+input_data = pd.DataFrame([[2, 9.000000, 6]], columns=["experience","test_score","interview_score"])
+model.predict(input_data)
