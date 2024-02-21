@@ -6,11 +6,11 @@
 1. /model.pkl - A .pkl file typically contains a serialized version of a trained machine learning model.
 2. /app.py - APIs
 3. /templates/index.html file - Frontend HTML form
-4. /requirements.text - Contrains package information
+4. /requirements.text - Contains package information
 
 
-### 🔎 Test locally:
+### 🔎 Test Locally:
 1. Locate the folder where all the required files are kept.
-2. Open the new terminal at folder.
+2. Open the new terminal in the folder.
 3. Type `python app.py` and enter.
-4. Terminal will return the URL for testing the application on browser.
+4. Terminal will return the URL for testing the application on the browser.
