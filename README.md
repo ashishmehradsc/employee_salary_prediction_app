@@ -1,5 +1,5 @@
 [![Ashish-Mehra.png](https://i.postimg.cc/W1sWvwSM/Ashish-Mehra.png)](https://www.linkedin.com/in/ashishmehra/)
-
+----
 # ❕❕ Testing   deployment of Salary Prediction model
 
 ### 📋 Files Needed:
@@ -14,3 +14,14 @@
 2. Open the new terminal in the folder.
 3. Type `python app.py` and enter.
 4. Terminal will return the URL for testing the application on the browser.
+
+## 📃 License:
+
+>Free Software, Hell Yeah!
+
+
+----
+## Connect on: 
+
+[![linkedin.png](https://i.postimg.cc/YCV2vR0W/linkedin.png)](https://www.linkedin.com/in/ashishmehra/)
+
